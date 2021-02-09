@@ -14,7 +14,7 @@ fi
 # Configuration scripts
 # Any configuration script that needs to run on image startup must be added here.
 CONFIGURE_SCRIPTS=(
-  "${KOGITO_HOME}"/launch/kogito-management-console.sh
+ # "${KOGITO_HOME}"/launch/kogito-management-console.sh
 )
 source "${KOGITO_HOME}"/launch/configure.sh
 #############################################
